@@ -1,0 +1,6 @@
+export const emailField = '#email'
+export const passwordField = '#password'
+export const signinBtn = '#signin_login'
+export const popupTextUp = '#swal2-title'
+export const popupTextDown = '#swal2-content'
+export const invalidEmailAlert = '.message-error'
