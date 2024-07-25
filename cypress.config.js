@@ -24,6 +24,6 @@ module.exports = defineConfig({
       ]);
       on('file:preprocessor', browserify(options));
     },
-    specPattern: 'tests/scenarios/**/*.test.js',
+    specPattern: 'cypress/e2e/**/*.cy.js', //tests/scenarios/**/*.test.js
     },
   })
